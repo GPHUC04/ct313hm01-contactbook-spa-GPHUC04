@@ -13,7 +13,7 @@ const routes = [
     component: () => import('@/views/NotFound.vue'),
   },
   {
-    path: '/contacts/add', // Route cho trang thêm mới
+    path: '/contacts/add', // them trang moi
     name: 'contact.add',
     component: () => import('@/views/ContactAdd.vue'),
   },
