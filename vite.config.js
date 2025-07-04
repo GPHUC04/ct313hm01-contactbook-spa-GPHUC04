@@ -19,11 +19,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://ct313hm01-contactbook-api-gphuc04.onrender.com',
+        target: 'http://localhost:4000',
         changeOrigin: true,
       },
       '/public': {
-        target: 'https://ct313hm01-contactbook-api-gphuc04.onrender.com',
+        target: 'http://localhost:4000',
         changeOrigin: true,
       },
     },
